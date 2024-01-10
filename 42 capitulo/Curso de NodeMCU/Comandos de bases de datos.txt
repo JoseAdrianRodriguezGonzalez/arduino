@@ -1,0 +1,8 @@
+SELECT * FROM device_state
+
+SELECT * FROM device_state WHERE idDevice = 'tarjeta 2'
+
+UPDATE device_state SET Temperatura = 33, Humedad =77 WHERE idDevice = 'tarjeta 2' 
+
+
+INSERT INTO registro_historico(ID, variable, valor, fecha)VALUES ('tarjeta 1','Temperatura','27', NOW())
