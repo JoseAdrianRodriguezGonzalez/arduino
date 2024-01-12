@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: radial-gradient(at left, rgb(104, 104, 168,0.5), rgb(53, 53, 179));
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 200px auto;
+    grid-template-rows: repeat(2,1fr);
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40%;
+    background-image: radial-gradient(at center, rgb(104, 104, 168,0.5), rgb(53, 53, 179));
+    border: none;
+    grid-auto-rows: minmax(10px,auto);
+}
+    .ttl-1{
+    display: grid;
+    justify-content: center;
+    grid-column: 1/ 3;
+    color: whitesmoke;
+  
+}
+.btn-1{
+    background-color: red;
+    color: whitesmoke;
+    border-radius:100% ;
+
+    
+}
+.btn-2{
+    background-color:green;
+    border-radius: 100%;
+    color: whitesmoke;
+}
